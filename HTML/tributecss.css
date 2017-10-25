@@ -1,0 +1,134 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+
+	 background-size: cover;
+	 background-position: auto;
+	 max-width: 100%;
+	 font-size: 18px;
+}
+h1{
+	text-align: center;
+	color: #00008B;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+
+
+a{
+	color:orange;
+}
+
+table{
+	margin-left: 12cm;
+	background-color: green;
+	margin-top: 5px;
+}
+#gradient{
+	font-size: 24px;
+  background: -webkit-linear-gradient(#aaa, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+img{
+	border-radius: 50%;
+	width: 50%;
+	margin-left: 10cm;
+	display: block;
+	margin-top: 10px;
+}
+.early-life{
+	margin-left: 2cm;
+	margin-right: 2cm;
+	max-height: 100%;
+	max-width: 100%;
+	background-color: #F0FFFF;
+}
+.introduction{
+	margin-left: 2cm;
+	margin-right: 2cm;
+	max-height: :100%;
+	max-width: 100%;
+	background-color: #F0FFFF;
+	margin-top: 50px;
+
+}
+.spiritual{
+	margin-left: 2cm;
+	margin-right: 2cm;
+	max-height: 100%;
+	max-width: 100%;
+	background-color: #F0FFFF;
+
+}
+.travel-details{
+	 margin-left: 2cm;
+	 margin-right: 2cm;
+	 max-height: 100%;
+	 max-width: 100%;
+	 background-color: #F0FFFF;
+	
+
+}
+nav li{
+		display: inline;
+		padding-bottom: 20px;
+		margin-left: 2cm;
+		margin-right: 2cm;
+
+}
+nav a{
+
+	font-size: 20px;
+	
+}
+nav{
+	text-align: center;
+	margin-top: 20px;
+}
+
+figcaption{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 15px;
+}
+main{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.early-life li{
+	margin-left: 0.5cm;
+}
+.introduction li{
+	margin-left: 0.5cm;
+}
+.spiritual li{
+	margin-left:0.5cm;
+}
+
+.travel-details li{
+	margin-left:0.5cm;
+}
+}

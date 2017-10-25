@@ -1,0 +1,153 @@
+// reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	/*background-image: url(http://images.all-free-download.com/images/graphiclarge/creative_clouds_05_hd_pictures_165816.jpg);*/
+	background-size: cover;
+}
+nav li {
+	display: inline;
+	text-align: left;
+	margin-left: 4cm;
+	font-size: 20px;
+	font-family: monospace;
+	font-color:green ;
+
+}
+
+nav{
+	background-color: white;
+	font-color:green ;
+}
+
+.interests{
+	margin-left:2cm; 
+	margin-top: 1cm;
+	font-size: 18px;
+	background-color: #EE82EE;
+	margin-right: 10cm;
+
+}
+img{
+	margin-left: 2cm;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	width: 20%
+	height: 20%;
+	border-radius: 60%;
+}
+table{
+	background-color: green;
+	margin-right:7cm;
+	font-size: 18px;
+	padding-top: 10cm;
+
+}
+a{
+	background-color: blue;
+}
+.education{
+	float: right;
+	margin-top: 10cm;
+	margin-left: auto;
+	margin-right: auto;
+}
+#education{
+	margin-right: 8cm;
+}
+#blog{
+
+	background-color: white;
+}
+.present-life{
+	margin-left:2cm; 
+	margin-top: 1cm;
+	font-size: 18px;
+	background-color: #808080;
+	margin-right: 10cm;
+	color: white;
+
+}
+#text-align{
+	text-align: center;
+}
+#present-text{
+	text-align: center;
+}
+#portfolio{
+	text-align: center;
+}
+footer{
+	background-color: black;
+	font-size: 40px;
+	text-align: center;
+}
+footer{
+	background-color: white;
+}
+.legend{
+	 background-color: #ADD8E6;
+}
+#jaaga{
+	background-color: black;
+}
+#margin-left{
+      margin-left: 0.2cm;
+}
+ul{
+	margin-left: 0.2cm;
+}
+#schedule{
+	margin-left: 0.2cm;
+}
+#quote{
+         margin-left:18cm;
+         margin-top: 2cm; 
+}
+#graduation{
+	font-size: 90px;
+	padding-left: 160px;
+
+}
+/*.nirma{
+	height: auto;
+	width: auto;
+	margin-top: 4cm;
+	margin-right:2cm;
+*/ 
+
+.try{
+	text-align: center;
+}
+#nirma{
+		margin-top: 2cm;
+
+}		
+#i{
+	margin-top: 1cm;
+	height: 90%
+	margin-left:10cm;
+}
+figcaption{
+	font-size: 24px;
+}

@@ -1,0 +1,126 @@
+<!-- Title : Portfolio Page
+Description : A Test webpage to know the HTML tags and structure of HTML code
+Author : Shivang Suchak
+Date Created : 4th October,2017
+Last Modified : 6th October,2017 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("h1").click(function(){
+  				$(this).html("Hello World!");
+  			});
+		});
+		var a=document.createElement("h1");
+		var b=document.createTextNode("Yo!");
+		function hello(){
+		a.appendChild(b);
+		document.getElementById("portfolio").appendChild(a);
+ }
+ 	var c=document.createElement("")
+  	</script>
+	<title>Portfolio page</title>
+	<!--  Start Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="langua ge" description="en">
+	<meta viewport="width="device-width, initial-scale=1">
+	<meta name="robots" description="index,follow/">
+	<link rel="stylesheet" type="text/css" href="portfoliocss.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- End meta tags -->
+</head>
+<body>
+	<button value="Show" onClick="hello()">Show Button</button>
+	<header>
+		<h1 id="portfolio"><u>Shivang's Portfolio Page</u>.</h1>
+		<!-- Navigation Links -->
+		<nav>
+			<ul>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#interests">Interests</a></li>
+				<li><a href="#presentlife">Present Life</a></li>
+				<li><a href="#social-media">Social Media Links</a></li>
+			</ul>
+		</nav>
+		</header>
+
+		<!-- Main Webpage Section -->
+		<main>
+		
+			<h1 id="quote"><q>Be the Creator of your own destiny</q></h1>
+
+			<img src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/19430144_1448760708571329_5372592041044448910_n.jpg?oh=ca929214ccbd3ab390bb2c210cb82f19&oe=5A720993"/>
+			<section class="education">
+				
+				<h1 id="education"><strong><u>Education:</u></strong></h1>
+				<table border="1">
+					<tr>
+						<td>Standard</td>
+						<td>:Passing Out Year</td>
+						<td>Name Of Institution</td>
+					</tr>
+					<tr>
+						<td>10<sup>th</sup></td>
+						<td><date>2010</date></td>
+						<td><a href="http://www.shreenarayanaguru.in/">S.N.G.V</a></td>
+					</tr>
+					<tr>
+					<td>12<sup>th</sup></td>
+					<td><date>2012</date></td>
+					<td><a href="http://www.shreenarayanaguru.in/">S.N.G.V</a></td>
+					</tr>
+					</table>
+					<i class="fa fa-graduation-cap" aria-hidden="true" id="graduation"></i>
+				<figcaption>
+					Graduated from Nirma University in <date>2016</date>
+				</figcaption>
+			</section>
+
+
+
+
+			<!-- Interests -->
+			<section class="interests" id="interests">
+				<h1 id="text-align"><u>Interests:</u></h1>
+			<ol>
+				<li>I am Instrumentation and Control Engineer and passionate about technology.</li>
+				<li>I like to write poems in my free time and the style of writing is mostly inspired by <a href="https://en.wikipedia.org/wiki/Kumar_Vishwas" target="_blank">Kumar Vishwas</a></li>
+				<li>I also like to research on Vedic Astrology and Spirituality
+				<a href="https://shivang17.wordpress.com" target="_blank" id="blog">Check Out my Blog here</a>.</li>
+			</ol>
+		  	</section>
+		  		<!-- Present Life @Jaaga -->
+			<section class="present-life" id="presentlife">
+				<article>
+					<h1 id="present-text"><u>Present Life:</u></h1>
+					<p id="margin-left">I am currently learning web development at <a href="http://jaaga.in/" target="_blank" id="jaaga">Jaaga</a>.</p>
+					<h2 id="schedule"> We maintain a regular schedule at the Jaaga Study</h2>
+					<ul>
+						<li> 08:00 Yoga</li>
+						<li> 10:00 Study Time</li>
+						<li> 14:00 Project</li>
+						<li> 17:00 Recreation time</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+				<!-- Contact Information form -->
+				<section class="social-media" id="social-media">
+				<footer>
+					<legend class="legend"><u>Contact Information</u>:</legend>
+
+						<a href="https://facebook.com/shivang.suchak1" target="_blank" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/shivang_suchak" target="_blank" class="fa fa-twitter"></a>
+						<a href="https://shivang17.wordpress.com" target="_blank" class="fa fa-wordpress"></a>
+						<a href="https://www.linkedin.com/in/shivang-suchak-96569098/" target="_blank" class="fa fa-linkedin"></a>
+					</form>
+				</footer>
+
+
+
+</body>
+</html>
